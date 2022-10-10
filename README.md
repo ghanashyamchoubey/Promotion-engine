@@ -35,3 +35,14 @@ Total 370<br>
 1 * C -<br>
 1 * D <b>30</b><br>
 Total	280<br>
+
+### Sample Curl to test the app
+curl --location --request POST 'http://localhost:8080/promotion/checkPrice' \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--data-raw '{
+    "A":3,
+    "B":5,
+    "C":1,
+    "D":1,
+}'
