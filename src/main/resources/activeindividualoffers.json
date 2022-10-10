@@ -1,0 +1,14 @@
+{
+  "individualoffers" : [
+    {
+      "SKUID":["A"],
+      "quantity":3,
+      "finalPrice":130
+    },
+    {
+      "SKUID":["B"],
+      "quantity":2,
+      "finalPrice":45
+    }
+  ]
+}

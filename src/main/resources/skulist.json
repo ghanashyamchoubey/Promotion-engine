@@ -1,0 +1,20 @@
+{
+  "itemlist" : [
+    {
+      "SKUID":"A",
+      "skuPrice":"50"
+    },
+    {
+      "SKUID":"B",
+      "skuPrice":"30"
+    },
+    {
+      "SKUID":"C",
+      "skuPrice":"20"
+    },
+    {
+      "SKUID":"D",
+      "skuPrice":"15"
+    }
+  ]
+}

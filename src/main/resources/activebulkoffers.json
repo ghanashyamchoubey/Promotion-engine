@@ -1,0 +1,9 @@
+{
+  "bulkoffers" : [
+    {
+      "SKUID":["C" , "D"],
+      "quantity":1,
+      "finalPrice":30
+    }
+  ]
+}
