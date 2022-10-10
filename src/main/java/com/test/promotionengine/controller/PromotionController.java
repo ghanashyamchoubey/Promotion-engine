@@ -22,7 +22,7 @@ public class PromotionController {
      * @param cartMap
      * @return ResponseEntity
      */
-    @PostMapping(path = "/checkPrice", consumes = "application/json", produces = "application/json")
+    @PostMapping(path = "/check-price", consumes = "application/json", produces = "application/json")
     public ResponseEntity<?> checkFinalPrice(@RequestBody Map<String, Long> cartMap) {
         return ResponseEntity.ok(promotionService.getPromotedPrice(cartMap));
     }
