@@ -37,7 +37,7 @@ Total 370<br>
 Total	280<br>
 
 ### Sample Curl to test the app
-curl --location --request POST 'http://localhost:8080/promotion/checkPrice' \
+curl --location --request POST 'http://localhost:8080/promotion/check-price' \
 --header 'Content-Type: application/json' \
 --header 'Accept: application/json' \
 --data-raw '{
